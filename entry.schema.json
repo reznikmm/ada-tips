@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-schema.org/draft/draft-07/schema",
+  "title": "Ada tips database entry",
+  "definitions": {
+    "Ref": {
+      "additionalProperties": false,
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "url": { "type": "string" },
+        "kind": {
+          "type": "string",
+          "enum": ["ARM", "AI", "misc"]
+        }
+      },
+      "required": ["title", "kind"]
+    },
+    "Example": {
+      "additionalProperties": false,
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "files": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "required": ["files"]
+      }
+    },
+    "Dependencies": {
+      "additionalProperties": false,
+      "type": "object",
+      "properties": {
+        "better_after": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "better_with": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "Godbold": {
+      "additionalProperties": false,
+      "type": "object",
+      "properties": {
+        "example": { "type": "string" },
+        "version": { "type": "string" },
+        "options": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "link": { "type": "string" },
+        "status": {
+          "type": "string",
+          "enum": ["ok", "fail"]
+        }
+      },
+      "required": ["version", "link"]
+    },
+    "DB_Entry": {
+      "additionalProperties": false,
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "deps": { "$ref": "#/definitions/Dependencies" },
+        "category": {
+          "type": "string",
+          "enum": [
+            "run-time-library",
+            "real-time",
+            "usability",
+            "iterators",
+            "syntax",
+            "syntax-sugar",
+            "containers"
+          ]
+        },
+        "language": {
+          "type": "string",
+          "enum": ["2022"]
+        },
+        "complexity": {
+          "type": "string",
+          "enum": ["simple", "mediate", "complex", "dark"]
+        },
+        "test": { "$ref": "#/definitions/Example" },
+        "can_use": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Godbold"
+          }
+        },
+        "refs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/Ref"
+          }
+        }
+      },
+      "required": ["id"]
+    }
+  }
+}

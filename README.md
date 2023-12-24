@@ -21,15 +21,17 @@ and may include:
 * A reference to the corresponding Ada Issue(s)
 * Tip-of-the-day (one, two, a few sentences describing the feature)
 * Detailed description
+  * The problem that is supposed to be solved
 * Classification
   * Language version (currently just 2022)
   * Category
-    * run-time library
+    * run-time library - mostly related to RTL
     * real-time
     * usability
     * iterators
     * containers
-    * syntax-sugar
+    * syntax - simple changes to syntax
+    * syntax-sugar - non-intuitive syntax like user defined iterators
 * Dependency for getting know
   * better-after
   * better-with

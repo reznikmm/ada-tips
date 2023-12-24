@@ -1,0 +1,13 @@
+{
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 70,
+    "prettier.proseWrap": "always",
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "entry.json"
+            ],
+            "url": "./entry.schema.json"
+        }
+    ]
+}

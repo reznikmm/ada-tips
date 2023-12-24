@@ -1,0 +1,36 @@
+{
+    "id": "AI12-0125-3",
+    "category": "syntax",
+    "complexity": "simple",
+    "test": { "files": [ "example.adb" ] },
+    "can_use": [
+        {
+            "version": "13.2",
+            "options": ["-gnat2022"],
+            "link": "https://godbolt.org/z/P1nKsbWb8",
+            "status": "ok"
+        }
+    ],
+    "refs": [
+        {
+            "title": "5.2.1",
+            "url": "http://www.ada-auth.org/standards/22aarm/html/AA-5-2-1.html",
+            "kind": "ARM"
+        },
+        {
+            "title": "AI12-0125-3",
+            "url": "http://www.ada-auth.org/cgi-bin/cvsweb.cgi/AI12s/AI12-0125-3.TXT",
+            "kind": "AI"
+        },
+        {
+            "title": "What's New in Ada 2022",
+            "url": "https://learn.adacore.com/courses/whats-new-in-ada-2022/chapters/assignment_target.html",
+            "kind": "misc"
+        },
+        {
+            "title": "Overview of Ada 2022",
+            "url": "http://www.ada-auth.org/standards/22over/html/Ov22-7-7.html",
+            "kind": "misc"
+        }
+    ]
+}
