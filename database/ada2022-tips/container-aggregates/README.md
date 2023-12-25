@@ -8,13 +8,11 @@
 >   or contracts.
 > - Enjoy simpler and more readable container code with this powerful addition
 >   to Ada.
-
-The new syntax looks like this:
-
-```ada
-List  : Int_Lists.List := [1, 2, 3];
-Map   : Float_Maps.Map := [1 => 10.0, 2 => 20.0];
-```
+>
+> ```ada
+> List  : Int_Lists.List := [1, 2, 3];
+> Map   : Float_Maps.Map := [1 => 10.0, 2 => 20.0];
+> ```
 
 These container aggregates use calls to `Append` and `Insert` procedures under
 the hood. Certainly, you can make such aggregates work for your own types. Learn

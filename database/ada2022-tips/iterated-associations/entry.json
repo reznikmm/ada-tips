@@ -1,6 +1,6 @@
 {
-    "id": "AI12-0212-1_2",
-    "deps": {"better_after": ["AI12-0212-1_1"]},
+    "id": "AI12-0212-1_3",
+    "deps": {"better_after": ["AI12-0212-1_1", "AI12-0212-1_2"]},
     "category": "syntax",
     "complexity": "simple",
     "test": { "files": [ "example.adb" ] },
@@ -12,7 +12,7 @@
             "status": "ok"
         },
         {
-            "version": "11.1",
+            "version": "10.2",
             "options": ["-gnat2020", "-gnatX"],
             "link": "",
             "status": "ok"
@@ -20,23 +20,23 @@
     ],
     "refs": [
         {
-            "title": "4.3.5",
-            "url": "http://www.ada-auth.org/standards/22aarm/html/AA-4-3-5.html",
+            "title": "4.3.3",
+            "url": "http://www.ada-auth.org/standards/22aarm/html/AA-4-3-3.html",
             "kind": "ARM"
         },
         {
-            "title": "AI12-0125-3",
-            "url": "http://www.ada-auth.org/cgi-bin/cvsweb.cgi/AI12s/AI12-0125-3.TXT",
+            "title": "AI12-0212-1",
+            "url": "http://www.ada-auth.org/cgi-bin/cvsweb.cgi/AI12s/AI12-0212-1.TXT",
             "kind": "AI"
         },
         {
             "title": "What's New in Ada 2022",
-            "url": "https://learn.adacore.com/courses/whats-new-in-ada-2022/chapters/container_aggregates.html",
+            "url": "https://learn.adacore.com/courses/whats-new-in-ada-2022/chapters/array_aggregates.html#iterated-component-association",
             "kind": "misc"
         },
         {
             "title": "Overview of Ada 2022",
-            "url": "http://www.ada-auth.org/standards/22over/html/Ov22-4-5.html",
+            "url": "http://www.ada-auth.org/standards/22over/html/Ov22-4-7.html",
             "kind": "misc"
         }
     ]
