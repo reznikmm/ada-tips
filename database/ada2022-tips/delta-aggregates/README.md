@@ -8,7 +8,7 @@
 > Projection : Point_3D := [Point with Z => 0.0];
 > ```
 
-## Solved problem
+## Addressed problem
 
 The delta aggregate notation in Ada 2022 solves the problem of awkwardly
 expressing modifications to parts of composite types. It provides a more concise

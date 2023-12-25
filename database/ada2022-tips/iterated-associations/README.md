@@ -14,7 +14,7 @@
 > Values : Integer_Array := [for J in 1 .. 5 => j => J * 2];
 > ```
 
-## Solved problem
+## Addressed problem
 
 Iterated Component Associations in array/container aggregates address several
 challenges in composing aggreagates:

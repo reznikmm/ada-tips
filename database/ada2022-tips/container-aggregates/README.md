@@ -19,7 +19,7 @@ the hood. Certainly, you can make such aggregates work for your own types. Learn
 more in a dedicated chapter on
 [learn.adacore.com](https://learn.adacore.com/courses/whats-new-in-ada-2022/chapters/container_aggregates.html).
 
-## Solved problem
+## Addressed problem
 
 The new container aggregate syntax in Ada 2022 addresses several issues with
 constructing container objects:

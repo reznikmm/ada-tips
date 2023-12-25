@@ -4,7 +4,7 @@
 > arrays more concisely by using `[]` instead of `(1 .. 0 => )` for empty arrays
 > and `[X]` for single-element lists.
 
-## Solved problem
+## Addressed problem
 
 The new square bracket syntax for Ada 2022 array aggregates solves two main
 problems:

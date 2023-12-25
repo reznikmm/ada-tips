@@ -6,7 +6,7 @@
 >
 >     Vector (Index).Counter := @ + 1;
 
-## Solved problem
+## Addressed problem
 
 The main problem being addressed by the new `@` symbol in Ada 2022 is verbosity
 and readability in assignment statements, particularly when dealing with:
