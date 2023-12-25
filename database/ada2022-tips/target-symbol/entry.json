@@ -5,9 +5,15 @@
     "test": { "files": [ "example.adb" ] },
     "can_use": [
         {
-            "version": "13.2",
+            "version": "12.2",
             "options": ["-gnat2022"],
             "link": "https://godbolt.org/z/P1nKsbWb8",
+            "status": "ok"
+        },
+        {
+            "version": "8.2",
+            "options": ["-gnat2020"],
+            "link": "",
             "status": "ok"
         }
     ],
