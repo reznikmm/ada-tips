@@ -1,6 +1,5 @@
 {
-    "id": "AI12-0249-1",
-    "deps": {"better_after": ["AI12-0208-1"]},
+    "id": "AI12-0208-1",
     "category": "usability",
     "complexity": "simple",
     "test": { "files": [ "example.adb" ] },
@@ -12,7 +11,7 @@
             "status": "ok"
         },
         {
-            "version": "11.2",
+            "version": "11.1",
             "options": ["-gnat2020"],
             "link": "",
             "status": "ok"
@@ -20,18 +19,18 @@
     ],
     "refs": [
         {
-            "title": "4.2.1",
-            "url": "http://www.ada-auth.org/standards/22aarm/html/AA-4-2-1.html",
+            "title": "A.5.6",
+            "url": "http://www.ada-auth.org/standards/22aarm/html/AA-A-5-6.html",
             "kind": "ARM"
         },
         {
-            "title": "AI12-0249-1",
-            "url": "http://www.ada-auth.org/cgi-bin/cvsweb.cgi/AI12s/AI12-0249-1.TXT",
+            "title": "AI12-0208-1",
+            "url": "http://www.ada-auth.org/cgi-bin/cvsweb.cgi/AI12s/AI12-0208-1.TXT",
             "kind": "AI"
         },
         {
             "title": "What's New in Ada 2022",
-            "url": "https://learn.adacore.com/courses/whats-new-in-ada-2022/chapters/user_defined_literals.html",
+            "url": "https://learn.adacore.com/courses/whats-new-in-ada-2022/chapters/big_numbers.html",
             "kind": "misc"
         },
         {

@@ -1,3 +1,5 @@
+pragma Assertion_Policy (Check);
+
 procedure Example is
    type Integer_Array is array (Positive range <>) of Integer;
    Base  : Integer_Array := [1, 2, 3];
