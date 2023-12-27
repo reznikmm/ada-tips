@@ -1,0 +1,31 @@
+{
+    "id": "AI12-0028-1",
+    "category": "usability",
+    "complexity": "simple",
+    "test": { "files": [ "example.adb" ] },
+    "can_use": [
+        {
+            "version": "11.1",
+            "options": [],
+            "link": "",
+            "status": "ok"
+        }
+    ],
+    "refs": [
+        {
+            "title": "B.3",
+            "url": "https://learn.adacore.com/courses/whats-new-in-ada-2022/chapters/importing_variadic_functions.html",
+            "kind": "ARM"
+        },
+        {
+            "title": "AI12-0028-1",
+            "url": "http://www.ada-auth.org/cgi-bin/cvsweb.cgi/AI12s/AI12-0028-1.TXT",
+            "kind": "AI"
+        },
+        {
+            "title": "What's New in Ada 2022",
+            "url": "https://learn.adacore.com/courses/whats-new-in-ada-2022/chapters/importing_variadic_functions.html",
+            "kind": "misc"
+        }
+    ]
+}
