@@ -1,0 +1,44 @@
+{
+    "id": "AI12-0262-1",
+    "deps": {"better_after": ["AI12-0212-1_3"]},
+    "category": "iterators",
+    "complexity": "mediate",
+    "test": { "files": [ "example.adb" ] },
+    "can_use": [
+        {
+            "version": "13.1",
+            "options": ["-gnat2022"],
+            "link": "",
+            "status": "ok"
+        },
+        {
+            "version": "12.2",
+            "options": ["-gnat2022", "-gnatX"],
+            "link": "",
+            "status": "ok"
+        },
+        {
+            "version": "11.1",
+            "options": ["-gnat2020", "-gnatX"],
+            "link": "",
+            "status": "ok"
+        }
+    ],
+    "refs": [
+        {
+            "title": "4.5.10",
+            "url": "http://www.ada-auth.org/standards/22aarm/html/AA-4-5-10.html",
+            "kind": "ARM"
+        },
+        {
+            "title": "AI12-0262-1",
+            "url": "http://www.ada-auth.org/cgi-bin/cvsweb.cgi/AI12s/AI12-0262-1.TXT",
+            "kind": "AI"
+        },
+        {
+            "title": "Overview of Ada 2022",
+            "url": "http://www.ada-auth.org/standards/22over/html/Ov22-2-5.html",
+            "kind": "misc"
+        }
+    ]
+}

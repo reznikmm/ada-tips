@@ -1,6 +1,6 @@
 {
     "id": "AI12-0208-1",
-    "category": "usability",
+    "category": "run-time-library",
     "complexity": "simple",
     "test": { "files": [ "example.adb" ] },
     "can_use": [
