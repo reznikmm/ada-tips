@@ -1,6 +1,6 @@
 {
     "id": "AI12-0220-1",
-    "category": "",
+    "category": "contracts",
     "complexity": "simple",
     "test": { "files": [ "example.adb" ] },
     "can_use": [

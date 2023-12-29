@@ -82,7 +82,8 @@
             "iterators",
             "syntax",
             "syntax-sugar",
-            "containers"
+            "containers",
+            "contracts"
           ]
         },
         "language": {
