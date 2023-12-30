@@ -1,0 +1,31 @@
+{
+    "id": "AI12-0164-1",
+    "category": "real-time",
+    "complexity": "mediate",
+    "test": { "files": [ "example.adb" ] },
+    "can_use": [
+        {
+            "version": "10.2",
+            "options": [],
+            "link": "",
+            "status": "ok"
+        }
+    ],
+    "refs": [
+        {
+            "title": "D.4",
+            "url": "http://www.ada-auth.org/standards/22aarm/html/AA-D-4.html",
+            "kind": "ARM"
+        },
+        {
+            "title": "AI12-0164-1",
+            "url": "http://www.ada-auth.org/cgi-bin/cvsweb.cgi/AI12s/AI12-0164-1.TXT",
+            "kind": "AI"
+        },
+        {
+            "title": "Overview of Ada 2022",
+            "url": "http://www.ada-auth.org/standards/22over/html/Ov22-6-3.html",
+            "kind": "misc"
+        }
+    ]
+}
