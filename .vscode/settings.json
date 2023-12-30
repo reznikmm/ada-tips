@@ -7,7 +7,7 @@
             "fileMatch": [
                 "entry.json"
             ],
-            "url": "./entry.schema.json"
+            "url": "./database/entry.schema.json"
         }
     ]
 }
