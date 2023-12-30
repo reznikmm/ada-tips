@@ -1,5 +1,5 @@
 {
-    "id": "AI12-0234-1",
+    "id": "AI12-0321-1_1",
     "category": "run-time-library",
     "complexity": "mediate",
     "test": { "files": [ "example.adb" ] },
@@ -19,13 +19,13 @@
     ],
     "refs": [
         {
-            "title": "C.6.2",
-            "url": "http://www.ada-auth.org/standards/22aarm/html/AA-C-6-2.html",
+            "title": "C.6.4",
+            "url": "http://www.ada-auth.org/standards/22aarm/html/AA-C-6-4.html",
             "kind": "ARM"
         },
         {
-            "title": "AI12-0234-1",
-            "url": "http://www.ada-auth.org/cgi-bin/cvsweb.cgi/AI12s/AI12-0234-1.TXT",
+            "title": "AI12-0321-1",
+            "url": "http://www.ada-auth.org/cgi-bin/cvsweb.cgi/AI12s/AI12-0321-1.TXT",
             "kind": "AI"
         },
         {
